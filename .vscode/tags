@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+a	../threenames.py	/^a = 'dead'$/;"	kind:variable	line:1
+b	../threenames.py	/^b = 'parrot'$/;"	kind:variable	line:2
+c	../threenames.py	/^c = 'sketch'$/;"	kind:variable	line:3
+myfile.py	../myfile.py	1;"	kind:file	line:1
+script1.py	../script1.py	1;"	kind:file	line:1
+threenames.py	../threenames.py	1;"	kind:file	line:1
+title	../myfile.py	/^title = "The Meaning of Life"$/;"	kind:variable	line:1
+x	../script1.py	/^x = "Spam!"$/;"	kind:variable	line:6
