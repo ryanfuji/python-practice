@@ -1,0 +1,33 @@
+{
+   "$schema": "https://puremourning.github.io/vimspector/schema/vimspector.schema.json",
+   "adapters": {
+       "run_with_debugpy": {
+      "command": [ "${workspaceRoot}/run_with_debugpy" ],
+      "port": 9876,
+      "env": {
+        "DEBUG_PORT": "9876"
+      }
+    }
+   },
+   "configurations": {
+  "run": {
+      "adapter": "debugpy",
+      "configuration": {
+        "request": "launch",
+        "type": "python",
+        "cwd": "${workspaceRoot}",
+        "program": "${file}",
+        "stopOnEntry": true,
+        "console": "integratedTerminal"
+      },
+      "breakpoints": {
+        "exception": {
+          "raised": "N",
+          "uncaught": "",
+          "userUnhandled": ""
+        }
+      }
+    }
+   }
+
+}
